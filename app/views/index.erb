@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Days Since Last Tech Incident</title>
+    <link rel="stylesheet" href="/css/style.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-inner">
+        <h1>The Tech Industry Has Gone
+          <span class="days">0</span> Days Without An Incident</h1>
+        <hr></hr>
+        <h2>Previous Record: <span class="days">0</span> Days</h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="container-inner">
+        <h2>How Can We Improve This Awful Track Record?</h2>
+        <h4>Donating to Organizations & People Working on Fixing our Toxic Culture:</h4>
+        <ul>
+          <% {"http://cultureoffset.org" => "Culture Offset", 
+            "http://girlswhocode.com/" => "Girls Who Code",
+            "http://adainitiative.org/" => "Ada Initiative",
+            "http://www.blackgirlscode.com/" => "Black Girls Code",
+            "http://www.opensourceforwomen.org/" => "Open Source for Women",
+            "http://girldevelopit.com/" => "Girl Develop It",
+            "https://lgbtech.org/" => "LGBTech",
+            "http://www.transhack.org/" => "TransH4CK",
+            "http://lesbianswhotech.org" => "Lesbians Who Tech",
+            "http://clojurebridge.org" => "Clojure Bridge",
+            "http://railsbridge.org" => "Rails Bridge",
+            "http://railsgirls.com" => "Rails Girls",
+            "http://doubleunion.org" => "Double Union San Francisco",
+            "http://modelviewculture.org" => "Model View Culture"
+          }.each_pair do |url, text| %>
+            <li><a href="<%= url %>" target="_blank"><%= text %></a></li>
+          <% end %>
+        </ul>
+
+        <h4>Read & Learn About How to Fix The Toxicity in Tech:</h4>
+        <ul>
+          <% { "http://medium.com/@shanley" => "Shanley Kane's Blog",
+            "http://ashedryden.com" => "Ashe Dryden's Blog",
+            "http://geekfeminism.org" => "Geek Feminism",
+            "http://juliepagano.com/blog/2014/02/26/bad-ally-quiz/" => "Bad Ally Quiz by Julie Pagano",
+            "http://juliepagano.com/blog/2014/02/28/ally-smells-appropriation/" => "Ally Smells: Appropriation by Julie Pagano",
+            "http://juliepagano.com/blog/2014/03/10/ally-smells-boundaries/" => "Ally Smells: Boundaries by Julie Pagano",
+            "http://rarlindseysmash.com/posts/little-things" => "When it's Death by 1000 Paper Cuts The Little Things Count by Lindsey Bieda",
+            "http://rarlindseysmash.com/posts/on-accepting-privilege" => "On Accepting Privilege by Lindsey Bieda",
+            "http://allison.house/blog/net-awards-diversity/" => "Why Diversity Actually Matters by Allison House",
+            "http://www.diversityinc.com/diversity-management/proof-that-diversity-drives-innovation/" => "Proof that Diversity Drives Innovation",
+            "http://glenngillen.com/thoughts/on-meritocracy" => "On Meritocracy by Glenn Gillen",
+            "http://adainitiative.org/2014/01/guest-post-conference-codes-of-conduct-as-seen-from-your-world-and-mine/" => "Conference Codes of Conduct as Seen From your World and Mine by Andromeda Yelton",
+            "http://thefeministwire.com/2013/10/17973/" => "Dig Deep: Beyond Lean In by bell hooks",
+            "http://www.starstryder.com/2012/07/15/make-the-world-better/" => "Make the World Better by Dr. Pamela Gay",
+            "http://www.starstryder.com/2013/11/06/truth-against-humanity/" => "Truth Against Humanity by Dr. Pamela Gay",
+            "http://subfictional.com/2012/07/02/language-matters-stop-using-guys-to-address-mix-gender-groups/" => "Language Matters: Stop Using 'Guys' To Address Mix-Gender Groups by Christie Koehler",
+            "https://medium.com/p/e60c10d3ed1f" => "Software Engineering Made a Woman Out of Me by Jennifer Gilbert",
+            "https://medium.com/the-power-of-harassment/29ea1546e91d" => "Drink Ups Are Rape Culture by Betsy",
+            "https://medium.com/p/816abb069ddf" => "Empathy for the Truth-Tellers by Betsy",
+            "https://t.co/aCTUb5zDNN" => "Toxic Until Proven Healthy by Betsy",
+            "http://doubleunion.tumblr.com/post/77929475144/how-not-to-support-women-in-tech" => "How Not to Support Women in Tech by DoubleUnion",
+            "https://t.co/OSQJsgR1WB" => "Who Wins From Leaning In? by Kate Losse",
+            "http://bellejar.ca/2014/02/22/why-wont-you-educate-me-about-feminism/" => "Why Won't you Educate Me About Feminism? by Anne Thériault",
+            "http://farukat.es/journal/2013/09/696-primer-sexism-tech" => "A Primer on Sexism in Tech by Faruk Ateş",
+            "http://modelviewculture.com/pieces/dear-marginalized-people-coming-into-tech" => "Dear Marginalized People Coming into Tech by Kronda Adair",
+            "http://www.garann.com/dev/2012/you-keep-using-that-word/" => "You Keep Using that Word by Garann Means",
+            "http://www.shakesville.com/2013/04/on-fixed-state-ally-model-vs-process.html?m=1" => "On Fixed-State Ally Model vs Process Model Ally Work by Melissa McEwan" }.each_pair do |url, text| %>
+            <li><a href="<%= url %>" target="_blank"><%= text %></a></li>
+          <% end %>
+        </ul>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-inner">
+        <p>Created by <a href="http://meaganwaller.com" target="_blank">Meagan Waller</a>. If you think an organization or article should be added to these lists please <a href="mailto:meaganewaller@gmail.com">let me know</a> or <a href="http://twitter.com/meaganewaller" target="_blank">send me a tweet about it</a>.
+      </div>
+    </div>
+  </body>
+</html>
