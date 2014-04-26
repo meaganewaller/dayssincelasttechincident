@@ -1,2 +1,2 @@
 require './init'
-run Sinatra::Application
+run TechIncident
