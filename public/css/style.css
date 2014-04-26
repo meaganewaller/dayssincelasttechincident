@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background: #E9E8E7;
+  font-family: "Open Sans", sans-serif;
 }
 
 .container {
@@ -15,7 +16,6 @@ body {
 .container-inner {
   text-align: center;
   margin-top: 5em;
-  font-family: "Open Sans"
 }
 
 .footer {
