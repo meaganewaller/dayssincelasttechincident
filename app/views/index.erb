@@ -7,27 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <div class="container">
-      <div class="container-inner">
-        <h1>The Tech Industry Has Gone
-          <span class="days">0</span> Days Without An Incident</h1>
-        <hr></hr>
-        <h2>Previous Record: <span class="days">0</span> Days</h2>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="container-inner">
-        <h2>How Can We Improve This Awful Track Record?</h2>
-        <%= partial :organizations %>
-        <%= partial :articles %>
-      </div>
-    </div>
-    <div class="footer">
-      <div class="footer-inner">
-        <p>Created by <a href="http://meaganwaller.com" target="_blank">Meagan Waller</a>. If you think an organization or article should be added to these lists please <a href="mailto:meaganewaller@gmail.com">let me know</a> or <a href="http://twitter.com/meaganewaller" target="_blank">send me a tweet about it.</a></p>
-        <p>The code for this website is <a href="https://gitlab.com/meaganewaller/daysincelasttechincident/tree/master" target="_blank">open sourced on GitLab</a> and accepting merge requests.</p>
-      </div>
-    </div>
+    <%= partial :header %>
+    <section class="color">
+    <h2 class="improve">How Can We Improve This Awful Track Record?</h2>
+    <%= partial :organizations %>
+    <%= partial :articles %>
+    </section>
+    <section class="ss-style-triangles">
+    <%= partial :footer %>
+    </section>
   </body>
 </html>
