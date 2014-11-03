@@ -1,0 +1,304 @@
+people:
+  - name: Ashe Dryden
+    donate_link: http://www.ashedryden.com/donate
+    website_link: http://ashedryden.com
+
+  - name: Carina Zona
+    donate_link: https://gratipay.com/cczona/
+    website_link: http://cczona.com
+
+  - name: Coraline Ada Ehmke
+    donate_link: http://www.patreon.com/coraline
+    website_link: http://where.coraline.codes/
+
+  - name: Julie Pagano
+    donate_link: http://www.patreon.com/juliepagano
+    website_link: http://juliepagano.com
+
+  - name: Kronda Adair
+    donate_link: https://app.moonclerk.com/pay/zbq1hn5y1s
+    website_link: http://kronda.com/
+
+  - name: Lynn Cyrin
+    donate_link:  https://gratipay.com/LynnMagic/
+    website_link: http://lynncyrin.me/
+
+  - name: Marie Markwell
+    donate_link: https://gratipay.com/duckinator/
+    website_link: http://marie.codes/
+
+  - name: Mattie Brice
+    donate_link: http://www.patreon.com/mattiebrice
+    website_link: http://www.mattiebrice.com/
+
+  - name: Shanley Kane
+    donate_link: https://modelviewculture.com/support
+    website_link: https://modelviewculture.com/authors/shanley-kane
+
+  - name: Teagan Widmer
+    donate_link: https://gratipay.com/tkwidmer/
+    website_link: http://www.teaganwidmer.me/
+
+  - name: Zoe Quinn
+    donate_link: http://www.patreon.com/zoe
+    website_link: http://www.quinnspiracy.com/
+
+organizations:
+  - name: Ada Developers Academy
+    website_link: http://adadevelopersacademy.org/
+    donate_link: https://donate.adadevelopersacademy.org/
+
+  - name: Ada Initiative
+    website_link: http://adainitiative.org/
+    donate_link: https://adainitiative.org/donate/
+
+  - name: "Ada's List"
+    website_link: http://adaslist.co/
+    donate_link:
+
+  - name: App Camp for Girls
+    website_link: http://appcamp4girls.com/
+    donate_link: http://appcamp4girls.com/contribute/
+
+  - name: Black Girls Code
+    website_link: http://www.blackgirlscode.com/
+    donate_link: http://www.blackgirlscode.com/
+
+  - name: Callback Women
+    website_link: http://www.callbackwomen.com/home.html
+    donate_link: https://gratipay.com/CallbackWomen/
+
+  - name: Clojure Bridge
+    website_link: http://www.clojurebridge.org/
+    donate_link:
+
+  - name: Codebar
+    website_link: http://codebar.io/
+    donate_link: https://gratipay.com/by_codebar/
+
+  - name: Code Ed
+    website_link: http://www.codeed.org/
+    donate_link: http://www.codeed.org/get_involved/index.html
+
+  - name: Computer Science for All
+    website_link: http://www.casinclude.org.uk/
+    donate_link: http://www.casinclude.org.uk/our-mission/join.php
+
+  - name: Culture Offset
+    website_link: http://cultureoffset.org/
+    donate_link:
+
+  - name: Double Union San Francisco
+    website_link: http://www.doubleunion.org/
+    donate_link: http://www.doubleunion.org/support
+
+  - name: Ethical Code
+    website_link: http://ethicalco.de/
+    donate_link:
+
+  - name: Geekettes
+    website_link: http://www.geekettes.io/
+    donate_link:
+
+  - name: Girl Develop It
+    website_link: http://www.girldevelopit.com/
+    donate_link: http://www.girldevelopit.com/donate
+
+  - name: Girl Geek Dinners
+    website_link: http://girlgeekdinners.com/
+    donate_link: http://girlgeekdinners.com/
+
+  - name: Girls Learning Code
+    website_link: http://learninglabs.org/members/girls-learning-code/
+    donate_link: http://learninglabs.org/about#donations
+
+  - name: Girls Teaching Girls to Code
+    website_link: http://www.girlsteachinggirlstocode.org/
+    donate_link: http://www.girlsteachinggirlstocode.org/
+
+  - name: Girls Who Code
+    website_link: http://girlswhocode.com/
+    donate_link:
+
+  - name: Hackbright Academy
+    website_link: http://www.hackbrightacademy.com/
+    donate_link: http://www.hackbrightacademy.com/sponsor
+
+  - name: Ladies Learning Code
+    website_link: http://ladieslearningcode.com/
+    donate_link: http://learninglabs.org/members/ladies-learning-code/#sponsors
+
+  - name: Lesbians Who Tech
+    website_link: http://lesbianswhotech.org/
+    donate_link: http://lesbianswhotech.org/donate-to-lesbians-who-tech/
+
+  - name: Model View Culture
+    website_link: http://modelviewculture.com/
+    donate_link: https://modelviewculture.com/support
+
+  - name: Open Source for Women
+    website_link: http://www.opensourceforwomen.org/
+    donate_link: http://www.patreon.com/coraline
+
+  - name: PHPBridge
+    website_link: http://phpbridge.org/docs/
+    donate_link:
+
+  - name: PHP Women
+    website_link: http://phpwomen.org/
+    donate_link:
+
+  - name: PyLadies
+    website_link: http://www.pyladies.com/
+    donate_link: http://www.pyladies.com/sponsor/
+
+  - name: Rails Bridge
+    website_link: http://www.railsbridge.org/
+    donate_link: http://www.railsbridge.org/help/donate
+
+  - name: Rails Girls
+    website_link: http://railsgirls.com/
+    donate_link:
+
+  - name: REFUGE Restrooms
+    website_link: http://www.refugerestrooms.org/
+    donate_link: http://www.refugerestrooms.org/
+
+  - name: Revision Path Podcast
+    website_link: http://revisionpath.com/
+    donate_link: http://revisionpath.com/donate/
+
+  - name: Stemettes
+    website_link: http://www.stemettes.org/
+    donate_link: http://www.stemettes.org/sponsors
+
+  - name: Technovation Challenge
+    website_link: http://www.technovationchallenge.org/home/
+    donate_link: http://www.technovationchallenge.org/donate/
+
+  - name: "Trans*H4CK"
+    website_link: http://www.transhack.org/
+    donate_link: "https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=zKZQnEzEWUxZb2HTmQE_zIuqmpkL26jiYVZ-r_q3ZuYWz3YYDjUQ7jm4f3i&dispatch=5885d80a13c0db1f8e263663d3faee8d66f31424b43e9a70645c907a6cbd8fb4"
+
+  - name: Women in Gaming
+    website_link: "https://www.facebook.com/groups/396715327030958/"
+    donate_link:
+
+  - name: Women Who Code
+    website_link: https://www.womenwhocode.com/
+    donate_link: https://www.womenwhocode.com/donate
+
+articles:
+  - name: "Ally Smells: Appropriation"
+    author: Julie Pagano
+    link: http://juliepagano.com/blog/2014/02/28/ally-smells-appropriation/
+
+  - name: "Ally Smells: Boundaries"
+    author: Julie Pagano
+    link: http://juliepagano.com/blog/2014/03/10/ally-smells-boundaries/
+
+  - name: "Bad Ally Quiz"
+    author: Julie Pagano
+    link: http://juliepagano.com/blog/2014/02/26/bad-ally-quiz/
+
+  - name: "Conference Codes of Conduct as Seen From your World and Mine"
+    author: Andromeda Yelton
+    link: http://adainitiative.org/2014/01/guest-post-conference-codes-of-conduct-as-seen-from-your-world-and-mine/
+
+  - name: Dear Marginalized People Coming into Tech
+    author: Kronda Adair
+    link: http://modelviewculture.com/pieces/dear-marginalized-people-coming-into-tech
+
+  - name: Designers, Women, and Hostility in Open Source
+    author: Gina Trapani
+    link: http://smarterware.org/7550/designers-women-and-hostility-in-open-source
+
+  - name: "Dig Deep: Beyond Lean In"
+    author: bell hooks
+    link: http://thefeministwire.com/2013/10/17973/
+
+  - name: "Drink Ups are Rape Culture"
+    author: Betsey Haibel
+    link: https://medium.com/the-power-of-harassment/29ea1546e91d
+
+  - name: "Empathy for the Truth-Tellers"
+    author: Betsey Haibel
+    link: https://medium.com/p/816abb069ddf
+
+  - name: "Geek Feminism Wiki"
+    author: Geek Feminism
+    link: http://geekfeminism.org/
+
+  - name: "How Not to Support Women in Tech"
+    author: DoubleUnion
+    link: http://doubleunion.tumblr.com/post/77929475144/how-not-to-support-women-in-tech
+
+  - name: Identifying Toxic Game Development Environments
+    author: Billy Joe Cain
+    link: https://www.youtube.com/watch?v=E0JFtDK6Sl4
+
+  - name: "Language Matters: Stop Using 'Guys' to Address Mix Gender Groups"
+    author: Christie Koehler
+    link: http://subfictional.com/2012/07/02/language-matters-stop-using-guys-to-address-mix-gender-groups/
+
+  - name: Make the World Better
+    author: Dr. Pamela Gay
+    link: http://www.starstryder.com/2012/07/15/make-the-world-better/
+
+  - name: On Accepting Privilege
+    author: Lindsey Bieda
+    link: http://rarlindseysmash.com/posts/on-accepting-privilege
+
+  - name: On Fixed State Ally Model vs Process Model Ally Work
+    author: Melissa McEwan
+    link: http://www.shakesville.com/2013/04/on-fixed-state-ally-model-vs-process.html?m=1
+
+  - name: On Meritocracy
+    author: Glenn Gillen
+    link: http://glenngillen.com/thoughts/on-meritocracy
+
+  - name: "A Primer on Sexism in Tech"
+    author: Faruk Ateş
+    link: http://farukat.es/journal/2013/09/696-primer-sexism-tech
+
+  - name: Proof that Diversity Drives Innovation
+    author:
+    link: http://www.diversityinc.com/diversity-management/proof-that-diversity-drives-innovation/
+
+  - name: Software Engineering Made a Woman Out of Me
+    author: Jennifer Gilbert
+    link: https://medium.com/p/e60c10d3ed1f
+
+  - name: Toxic Until Proven Healthy
+    author: Betsy Haibel
+    link: https://t.co/aCTUb5zDNN
+
+  - name: Truth Against Humanity
+    author: Dr. Pamela Gay
+    link: http://www.starstryder.com/2013/11/06/truth-against-humanity/
+
+  - name: "What Women Don't Want"
+    author: Khadijah M. Britton
+    link: https://medium.com/ladybits-on-medium/3a01c7c65b71
+
+  - name: "When it's Death by 1,000 Paper Cuts the Little Things Count"
+    author: Lindsey Bieda
+    link: http://rarlindseysmash.com/posts/little-things
+
+  - name: "Who Wins from Leaning In?"
+    author: Kate Losse
+    link: https://t.co/OSQJsgR1WB
+
+  - name: "Why Diversity Actually Matters"
+    author: Allison House
+    link: http://allison.house/blog/net-awards-diversity/
+
+  - name: "Why Won't You Educate Me About Feminism?"
+    author: Anne Thériault
+    link: http://bellejar.ca/2014/02/22/why-wont-you-educate-me-about-feminism/
+
+  - name: "You Keep Using that Word"
+    author: Garann Means
+    link: http://www.garann.com/dev/2012/you-keep-using-that-word/
+
+

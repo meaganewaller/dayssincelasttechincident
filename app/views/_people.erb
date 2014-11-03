@@ -1,0 +1,25 @@
+<section id="the-people" name="the-people"></section>
+  <div id="people">
+    <div class="container">
+      <div class="row centered">
+        <h1>People Actively Working on Fixing the Toxic Culture</h1>
+        <div class="people">
+          <ul>
+            <% CONFIG["people"].each do |ppl| %>
+              <li class="people-item">
+              <div class="masthead">
+                <h4><%= ppl["name"] %></h4>
+                <ul class="links">
+                  <li class="website"><a href="<%= ppl['website_link'] %>" target="_blank"><i class="icon icon-link"></i></a></li>
+                  <li class="donate"><a href="<%= ppl['donate_link'] %>" target="_blank"><i class="icon icon-donate"></i></a></li>
+                </ul>
+              </div>
+              </li>
+            <% end %>
+          </ul>
+          <br><br>
+        </div>
+      </div>
+    </div>
+  </div>
+

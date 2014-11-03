@@ -1,44 +1,21 @@
-<!DOCTYPE HTML>
-<html>
-  <head>
-    <title>Days Since Last Tech Incident</title>
-    <link rel="stylesheet" href="/css/style.css"/>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)
-        },i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-42947325-1', 'dayssincelasttechincident.com');
-      ga('send', 'pageview');
-
-    </script>
-  </head>
-  <body>
-    <div class="container">
-      <div class="container-inner">
-        <h1>The Tech Industry Has Gone
-          <span class="days">0</span> Days Without An Incident</h1>
-        <hr></hr>
-        <h2>Previous Record: <span class="days">0</span> Days</h2>
+<section id="home" name="home"></section>
+<div id="headerwrap">
+  <div class="container">
+    <div class="row centered">
+      <div class="col-lg-12">
+        <h1>The Tech Industry Has Gone <b>0</b> Days Without an Incident</h1>
+        <h3>Previous Record: <b>0 Days</b></h3>
+        <h3>Every Day Marginalized People Are Discriminated Against, Harrassed, and Pushed Out of the Industry.</h3>
+        <h3><b>Let's Help Put a Stop to It.</b></h3>
       </div>
     </div>
+  </div>
+</div>
 
-    <div class="container">
-      <div class="container-inner">
-        <h2>How Can We Improve This Awful Track Record?</h2>
-        <%= partial :organizations %>
-        <%= partial :articles %>
-      </div>
-    </div>
-    <div class="footer">
-      <div class="footer-inner">
-        <p>Created by <a href="http://meaganwaller.com" target="_blank">Meagan Waller</a>. If you think an organization or article should be added to these lists please <a href="mailto:meaganewaller@gmail.com">let me know</a> or <a href="http://twitter.com/meaganewaller" target="_blank">send me a tweet about it.</a></p>
-        <p>The code for this website is <a href="https://gitlab.com/meagan/daysincelasttechincident" target="_blank">open sourced on GitLab</a> and accepting merge requests.</p>
-      </div>
-    </div>
-  </body>
+<%= partial :people %>
+<%= partial :organizations %>
+<%= partial :articles %>
+<%= partial :suggest %>
+<script src="/js/bootstrap.js"></script>
+</body>
 </html>
