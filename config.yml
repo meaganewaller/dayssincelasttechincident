@@ -11,13 +11,25 @@ people:
     donate_link: http://www.patreon.com/coraline
     website_link: http://where.coraline.codes/
 
+  - name: Jenn Schiffer
+    donate_link:
+    website_link: http://jennmoney.biz
+
   - name: Julie Pagano
     donate_link: http://www.patreon.com/juliepagano
     website_link: http://juliepagano.com
 
+  - name: Julie Ann Horvath
+    donate_link:
+    website_link: http://julieannhorvath.com/
+
   - name: Kronda Adair
     donate_link: https://app.moonclerk.com/pay/zbq1hn5y1s
     website_link: http://kronda.com/
+
+  - name: Leigh Honeywell
+    donate_link:
+    website_link: http://hypatia.ca
 
   - name: Lynn Cyrin
     donate_link:  https://gratipay.com/LynnMagic/
@@ -30,6 +42,10 @@ people:
   - name: Mattie Brice
     donate_link: http://www.patreon.com/mattiebrice
     website_link: http://www.mattiebrice.com/
+
+  - name: Sarah Sharp
+    donate_link:
+    website_link: http://sarah.thesharps.us/
 
   - name: Shanley Kane
     donate_link: https://modelviewculture.com/support
@@ -55,6 +71,10 @@ organizations:
   - name: "Ada's List"
     website_link: http://adaslist.co/
     donate_link:
+
+ - name: "Anita Borg Email List"
+   website_link: http://anitaborg.org/get-involved/systers/
+   donate_link:
 
   - name: App Camp for Girls
     website_link: http://appcamp4girls.com/
@@ -123,6 +143,10 @@ organizations:
   - name: Hackbright Academy
     website_link: http://www.hackbrightacademy.com/
     donate_link: http://www.hackbrightacademy.com/sponsor
+
+  - name: Hack The Hood
+    website_link: http://www.hackthehood.org/
+    donate_link: "https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=vUDmA3eeFv23bzAkAO5HojDwXtoBBp92LuuvvOmVTd1RSBogbr2B_fDyo2y&dispatch=5885d80a13c0db1f8e263663d3faee8d66f31424b43e9a70645c907a6cbd8fb4"
 
   - name: Ladies Learning Code
     website_link: http://ladieslearningcode.com/
