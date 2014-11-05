@@ -11,7 +11,9 @@
                 <h4><%= ppl["name"] %></h4>
                 <ul class="links">
                   <li class="website"><a href="<%= ppl['website_link'] %>" target="_blank"><i class="icon icon-link"></i></a></li>
-                  <li class="donate"><a href="<%= ppl['donate_link'] %>" target="_blank"><i class="icon icon-donate"></i></a></li>
+                  <% unless ppl['donate_link'].nil? %>
+                    <li class="donate"><a href="<%= ppl['donate_link'] %>" target="_blank"><i class="icon icon-donate"></i></a></li>
+                  <% end %>
                 </ul>
               </div>
               </li>

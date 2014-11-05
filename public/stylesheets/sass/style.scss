@@ -139,9 +139,44 @@ div#people, div#articles, div#organizations, div#credits{
   padding: 3em 1em;
 }
 
+.articles {
+  padding-top: 3em;
+  margin: 0 auto;
+  ul {
+    padding: 0;
+    margin-left: 0;
+  }
+  li {
+    display: block;
+    list-style-type: none;
+    width: 100%;
+    padding-bottom: .5em;
+  }
+ .masthead-article {
+    display: block;
+    height: 100px;
+    padding-bottom: 4em;
+    border-bottom: 1px solid #333;
+    h4 {
+      font-size: 1.4em;
+      display: block;
+      float: left;
+      padding-top: .5em;
+      @media (max-width: 400px) {
+        font-size: 1.2em;
+      }
+    }
+    span.author {
+      display: block;
+      width: 100%;
+    }
+  }
+
+}
+
 .people,
 .organization,
-.articles, .credits {
+.credits {
   padding-top: 3em;
   margin: 0 auto;
   ul {

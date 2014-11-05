@@ -8,7 +8,10 @@
             <% CONFIG["articles"].each do |art| %>
               <li class="article-item">
               <div class="masthead-article">
-                <h4><a href="<%= art["link"] %>" target="_blank"><%= art["name"] %></a> by: <%= art["author"] %></h4>
+                <h4><a href="<%= art["link"] %>" target="_blank"><%= art["name"] %></a>
+                  <% unless art["author"].nil? %>
+                    by: <%= art["author"] %></h4>
+                <% end %>
               </div>
               </li>
             <% end %>

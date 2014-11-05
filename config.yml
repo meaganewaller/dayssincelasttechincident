@@ -35,6 +35,10 @@ people:
     donate_link:  https://gratipay.com/LynnMagic/
     website_link: http://lynncyrin.me/
 
+  - name: Nina De Jesus
+    donate_link: https://gratipay.com/satifice/
+    website_link: http://satifice.com/
+
   - name: Marie Markwell
     donate_link: https://gratipay.com/duckinator/
     website_link: http://marie.codes/
@@ -72,9 +76,9 @@ organizations:
     website_link: http://adaslist.co/
     donate_link:
 
- - name: "Anita Borg Email List"
-   website_link: http://anitaborg.org/get-involved/systers/
-   donate_link:
+  - name: "Anita Borg Email List"
+    website_link: http://anitaborg.org/get-involved/systers/
+    donate_link:
 
   - name: App Camp for Girls
     website_link: http://appcamp4girls.com/
@@ -213,6 +217,10 @@ organizations:
     donate_link: https://www.womenwhocode.com/donate
 
 articles:
+  - name: "A Better Way to Say Sorry"
+    author: JoEllen
+    link: http://www.cuppacocoa.com/a-better-way-to-say-sorry/
+
   - name: "Ally Smells: Appropriation"
     author: Julie Pagano
     link: http://juliepagano.com/blog/2014/02/28/ally-smells-appropriation/
@@ -225,9 +233,21 @@ articles:
     author: Julie Pagano
     link: http://juliepagano.com/blog/2014/02/26/bad-ally-quiz/
 
+  - name: "Being an Ally Part 1: Listening to Anger"
+    author: SophiaSerpentia
+    link: https://sophiaserpentia.livejournal.com/838741.html
+
+  - name: "Building a Diverse Speaker Lineup"
+    author: Julie Pagano
+    link: http://juliepagano.com/blog/2014/08/26/building-a-diverse-speaker-lineup/
+
   - name: "Conference Codes of Conduct as Seen From your World and Mine"
     author: Andromeda Yelton
     link: http://adainitiative.org/2014/01/guest-post-conference-codes-of-conduct-as-seen-from-your-world-and-mine/
+
+  - name: "The Day I Leave the Tech Industry"
+    author: Cate Huston
+    link: http://www.catehuston.com/blog/2014/07/28/the-day-i-leave-the-tech-industry/
 
   - name: Dear Marginalized People Coming into Tech
     author: Kronda Adair
@@ -237,9 +257,17 @@ articles:
     author: Gina Trapani
     link: http://smarterware.org/7550/designers-women-and-hostility-in-open-source
 
+  - name: Derailing for Dummies
+    author:
+    link: http://www.derailingfordummies.com/
+
   - name: "Dig Deep: Beyond Lean In"
     author: bell hooks
     link: http://thefeministwire.com/2013/10/17973/
+
+  - name: "The Do's and Don'ts of Being a Good Ally"
+    author: Mikki Kendall
+    link: http://theangryblackwoman.com/2009/10/01/the-dos-and-donts-of-being-a-good-ally/
 
   - name: "Drink Ups are Rape Culture"
     author: Betsey Haibel
@@ -250,8 +278,11 @@ articles:
     link: https://medium.com/p/816abb069ddf
 
   - name: "Geek Feminism Wiki"
-    author: Geek Feminism
     link: http://geekfeminism.org/
+
+  - name: "Here's Why Women Have Turned the 'Not All Men' Objection into a Meme"
+    author: Kelsey McKinney
+    link: http://www.vox.com/2014/5/15/5720332/heres-why-women-have-turned-the-not-all-men-objection-into-a-meme
 
   - name: "How Not to Support Women in Tech"
     author: DoubleUnion
@@ -261,17 +292,36 @@ articles:
     author: Billy Joe Cain
     link: https://www.youtube.com/watch?v=E0JFtDK6Sl4
 
+  - name: "'Internet Famous': Visibiity as Violence on Social Media"
+    author: Shanley Kane
+    link: http://modelviewculture.com/pieces/internet-famous-visibility-as-violence-on-social-media
+
+  - name: "I'm Angry Because I'm Afraid"
+    author: Ellen Chisa
+    link: http://blog.ellenchisa.com/2014/04/22/im-angry-because-im-afraid/
+
   - name: "Language Matters: Stop Using 'Guys' to Address Mix Gender Groups"
     author: Christie Koehler
     link: http://subfictional.com/2012/07/02/language-matters-stop-using-guys-to-address-mix-gender-groups/
+
+  - name: Model View Culture
+    link: http://modelviewculture.com
 
   - name: Make the World Better
     author: Dr. Pamela Gay
     link: http://www.starstryder.com/2012/07/15/make-the-world-better/
 
+  - name: "Not All Men: A Brief History of Every Dude's Favorite Argument"
+    author: Jess Zimmerman
+    link: http://time.com/79357/not-all-men-a-brief-history-of-every-dudes-favorite-argument/
+
   - name: On Accepting Privilege
     author: Lindsey Bieda
     link: http://rarlindseysmash.com/posts/on-accepting-privilege
+
+  - name: On Fighting for Marginalized People in Tech
+    author: Julie Pagano
+    link: http://juliepagano.com/blog/2014/06/08/on-fighting-for-marginalized-people-in-tech/
 
   - name: On Fixed State Ally Model vs Process Model Ally Work
     author: Melissa McEwan
@@ -281,6 +331,10 @@ articles:
     author: Glenn Gillen
     link: http://glenngillen.com/thoughts/on-meritocracy
 
+  - name: "The Pipeline is Full of Acid"
+    author: Meagan Waller
+    link: http://meaganwaller.com/blog/the-pipeline-is-full-of-acid
+
   - name: "A Primer on Sexism in Tech"
     author: Faruk Ateş
     link: http://farukat.es/journal/2013/09/696-primer-sexism-tech
@@ -289,9 +343,21 @@ articles:
     author:
     link: http://www.diversityinc.com/diversity-management/proof-that-diversity-drives-innovation/
 
+  - name: "Sexism, Misogyny & Misandry in Geek Cultures"
+    author: Jason Tocci
+    link: http://www.geekstudies.org/2011/08/sexism-misogyny-misandry-in-geek-cultures
+
   - name: Software Engineering Made a Woman Out of Me
     author: Jennifer Gilbert
     link: https://medium.com/p/e60c10d3ed1f
+
+  - name: "STFU and Listen: a programmatic approach to a respectful conversation"
+    author: Mathew
+    link: http://fluxlab.io/2013/12/06/stfu/
+
+  - name: Time to Talk about Community Accountability
+    author: Nina De Jesus
+    link: http://satifice.com/2014/05/04/time-to-talk-about-community-accountability
 
   - name: Toxic Until Proven Healthy
     author: Betsy Haibel
@@ -300,6 +366,10 @@ articles:
   - name: Truth Against Humanity
     author: Dr. Pamela Gay
     link: http://www.starstryder.com/2013/11/06/truth-against-humanity/
+
+  - name: "What (Else) Can Men Do? Grow the Fuck Up."
+    author: Matt LeMay
+    link: https://medium.com/@mattlemay/what-else-can-men-do-grow-the-fuck-up-77a37fd43530
 
   - name: "What Women Don't Want"
     author: Khadijah M. Britton
@@ -317,9 +387,17 @@ articles:
     author: Allison House
     link: http://allison.house/blog/net-awards-diversity/
 
+  - name: "Why Does Talking About Creepers and Harassment Make People So Angry?"
+    author: Ken White
+    link: http://www.popehat.com/2013/07/01/why-does-talking-about-creepers-and-harassment-make-people-so-angry/
+
   - name: "Why Won't You Educate Me About Feminism?"
     author: Anne Thériault
     link: http://bellejar.ca/2014/02/22/why-wont-you-educate-me-about-feminism/
+
+  - name: "You Can Check my Credentials if I Can Check Yours"
+    author: Seanan McGuire
+    link: https://seanan-mcguire.livejournal.com/524767.html
 
   - name: "You Keep Using that Word"
     author: Garann Means
