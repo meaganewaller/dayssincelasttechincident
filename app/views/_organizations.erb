@@ -8,7 +8,7 @@
             <% CONFIG["organizations"].each do |org| %>
               <li class="org-item">
               <div class="masthead">
-                <h4><%= org["name"] %></h4>
+                <h4><a href="<%= org['website_link'] %>" target="_blank"><%= org["name"] %></a></h4>
                 <ul class="links">
                   <li class="website"><a href="<%= org['website_link'] %>" target="_blank"><i class="icon icon-link"></i></a></li>
                   <% unless org['donate_link'].nil? %>

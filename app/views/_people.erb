@@ -8,7 +8,7 @@
             <% CONFIG["people"].each do |ppl| %>
               <li class="people-item">
               <div class="masthead">
-                <h4><%= ppl["name"] %></h4>
+                <h4><a href="<%= ppl['website_link'] %>" target="_blank"><%= ppl["name"] %></a></h4>
                 <ul class="links">
                   <li class="website"><a href="<%= ppl['website_link'] %>" target="_blank"><i class="icon icon-link"></i></a></li>
                   <% unless ppl['donate_link'].nil? %>
