@@ -23,7 +23,7 @@ class TechIncident < Sinatra::Base
         address: 'smtp.sendgrid.net',
         port: '587',
         enable_starttsl_auto: true,
-        username: ENV['SENDGRID_USERNAME'],
+        user_name: ENV['SENDGRID_USERNAME'],
         password: ENV['SENDGRID_PASSWORD'],
         authentication: :plain,
         domain: 'heroku.com'
