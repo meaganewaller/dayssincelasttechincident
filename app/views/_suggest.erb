@@ -19,7 +19,7 @@
       <form role="form" action="/" method="post" enctype="plain">
         <div class="form-group">
           <label for="name">Your Name</label>
-          <input type="name" name="name" class="form-control" id='name' placeholder="Your Name" required>
+          <input type="name" name="name" class="form-control" id='name' placeholder="Your Name" required autofocus>
         </div>
         <div class="form-group">
           <label for="mail">Email Address</label>
@@ -33,11 +33,12 @@
             <option value="person">Person</option>
             <option value="organization">Organization</option>
             <option value="article">Article, Video, etc</option>
+            <option value="other">Other (Explain Below)</option>
           </select>
         </div>
         <div class="form-group">
           <label for="message">Information about Resource</label>
-          <textarea class="form-control" name="message" rows="3" required></textarea>
+          <textarea class="form-control" name="message" rows="3" required placeholder="Please include any relevant links!"></textarea>
         </div>
         <br>
         <button type="submit" class="btn btn-large btn-success">SUBMIT</button>

@@ -13,18 +13,28 @@ class TechIncident < Sinatra::Base
   end
 
   post '/' do
-    name = params[:name]
-    mail = params[:mail]
-    subject = params[:subject]
-    body = params[:message]
-
-    Pony.mail({
-      to: ENV['DSLTI_EMAIL'],
-      from: "#{mail}",
-      subject: "DSLTI - New #{subject}",
-      body: "#{body} from #{name}"
-    })
-    flash[:success] = "Thanks for your email suggestion!"
-    redirect '/'
+    res = Pony.mail(
+      from: params[:name] + "<" + params[:mail] + ">",
+      to: ENV["DSLTI_EMAIL"],
+      subject: "DSLTI - New #{params[:subject]}",
+      body: params[:body],
+      via: :smtp,
+      via_options: {
+        address: 'smtp.sendgrid.net',
+        port: '587',
+        enable_starttsl_auto: true,
+        username: ENV['SENDGRID_USERNAME'],
+        password: ENV['SENDGRID_PASSWORD'],
+        authentication: :plain,
+        domain: 'dayssincelasttechincident.com'
+      }
+    )
+    if res
+      flash[:success] = "Thanks for your email suggestion!"
+      redirect '/'
+    else
+      flash[:error] = "The email was not sent successfully. Please try again."
+      redirect '/'
+    end
   end
 end

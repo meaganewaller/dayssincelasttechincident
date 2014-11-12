@@ -4,6 +4,7 @@ gem "sass"
 gem "rake"
 gem "pony"
 gem "rack-flash3"
+gem 'rack'
 
 group :development do
   gem "shotgun"

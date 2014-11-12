@@ -28,6 +28,7 @@ PLATFORMS
 DEPENDENCIES
   dotenv
   pony
+  rack
   rack-flash3
   rake
   sass
