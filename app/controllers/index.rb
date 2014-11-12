@@ -9,7 +9,7 @@ class TechIncident < Sinatra::Base
   end
 
   get '/credits' do
-    erb :credits
+    erb :credits, layout: :page_layout
   end
 
   post '/' do

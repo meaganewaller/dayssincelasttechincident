@@ -38,16 +38,16 @@
           <span class='icon-bar'></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#home"><b>Days Since Last Tech Incident</b></a>
+        <a class="navbar-brand" href="/#home"><b>Days Since Last Tech Incident</b></a>
       </div>
       <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#home" class="smoothScroll">Home</a></li>
-          <li><a href="#the-people" class="smoothScroll">People</a></li>
-          <li><a href="#the-organizations" class="smoothScroll">Organizations</a></li>
-          <li><a href="#the-articles" class="smoothScroll">Articles</a></li>
-          <li><a href="#suggest" class="smoothScroll">Suggest</a></li>
-        </ul>
+        <!-- <ul class="nav navbar&#45;nav"> -->
+        <!--   <li class="active"><a href="/#home" class="smoothScroll">Home</a></li> -->
+        <!--   <li><a href="/#the&#45;people" class="smoothScroll">People</a></li> -->
+        <!--   <li><a href="/#the&#45;organizations" class="smoothScroll">Organizations</a></li> -->
+        <!--   <li><a href="/#the&#45;articles" class="smoothScroll">Articles</a></li> -->
+        <!--   <li><a href="/#suggest" class="smoothScroll">Suggest</a></li> -->
+        <!-- </ul> -->
       </div>
     </div>
   </div>
@@ -62,8 +62,20 @@
 
   <script src="/js/bootstrap.js"></script>
   <script>
-    $('body').scrollspy({target: '#navigation'})
-  </script>
+    var sections = $('.section');
+    $(window).scroll(function() {
+      var currentPosition = $(this).scrollTop();
+      sections.removeClass('selected');
+
+      sections.each(function() {
+      var top =$(this).offset().top,
+      bottom = top + $(this).height();
+
+      if currentPosition >= top && currentPosition <= bottom) {
+      $('a[href="#' + this.id + '"]').addClass('selected');
+      }
+      })
+      });
 </body>
 </html>
 
