@@ -26,7 +26,7 @@ class TechIncident < Sinatra::Base
         username: ENV['SENDGRID_USERNAME'],
         password: ENV['SENDGRID_PASSWORD'],
         authentication: :plain,
-        domain: 'dayssincelasttechincident.com'
+        domain: 'heroku.com'
       }
     )
     if res
