@@ -12,7 +12,7 @@ GEM
       rack
     rack-protection (1.5.3)
       rack
-    rake (10.3.2)
+    rake (12.3.3)
     sass (3.4.7)
     shotgun (0.9)
       rack (>= 1.0)
